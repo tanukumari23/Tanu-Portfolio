@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanu Kumari — Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Tanu Kumari — Full Stack Developer building scalable web apps, CRM systems, e-commerce platforms, and REST APIs with Node.js, Express, and MySQL." />
+  <meta name="author" content="Tanu Kumari" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icons (used as inline SVG via JS) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <meta property="og:title" content="Tanu Kumari — Full Stack Developer" />
+  <meta property="og:description" content="I build scalable web applications including CRM systems, e-commerce platforms, and APIs." />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <!-- ============== NAVBAR ============== -->
+  <header id="navbar" class="navbar">
+    <nav class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-logo"><i data-lucide="code-2"></i></span>
+        <span class="brand-name">Tanu<span class="brand-dot">.</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary mobile-cta">Hire Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============== HERO ============== -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <img src="./assets/hero-bg.jpg" alt="" aria-hidden="true" />
+        <div class="hero-bg-overlay"></div>
+      </div>
+      <div class="grid-bg"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+
+      <div class="container hero-grid">
+        <div class="fade-in-up">
+          <div class="badge">
+            <i data-lucide="sparkles"></i>
+            Available for freelance projects
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Tanu Kumari</span><br />
+            <span class="hero-subtitle">Full Stack Developer</span>
+          </h1>
+
+          <p class="hero-desc">
+            I build scalable web applications including
+            <strong>CRM systems</strong>,
+            <strong>e-commerce platforms</strong>, and
+            <strong>REST APIs</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i data-lucide="mail"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="hero-socials-label">Find me on</span>
+            <span class="hero-socials-divider"></span>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/tanu-kumari-7700a0293" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/tanukumari23" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="mailto:tanu.kumari.2308@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-card-wrap scale-in">
+          <div class="code-card-glow"></div>
+          <div class="code-card">
+            <div class="code-card-inner">
+              <div class="code-card-header">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="code-card-file">developer.js</span>
+              </div>
+              <pre class="code-card-pre">const tanu = {
+  name: "Tanu Kumari",
+  role: "Full Stack Dev",
+  stack: [
+    "Node.js", "Express",
+    "MySQL", "JavaScript",
+    "jQuery", "REST APIs"
+  ],
+  buildsClientApps: true,
+  available: () => "let's talk!"
+};</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== ABOUT ============== -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow">// About Me</p>
+          <h2 class="section-title">
+            Crafting reliable products from <span class="text-gradient">idea to launch</span>
+          </h2>
+          <div class="about-text">
+            <p>I'm a Full Stack Developer with hands-on experience designing and shipping real-world web applications for clients across industries. My work spans the full lifecycle — from architecting databases to crafting smooth user experiences.</p>
+            <p>My core stack includes <strong>Node.js</strong>, <strong>React.js</strong>, <strong>Express.js</strong>, <strong>Node.js</strong>, <strong>MySQL</strong>, <strong>Mongo DB</strong>, <strong>JavaScript</strong>, and <strong>jQuery</strong>. I focus on writing clean, maintainable code and building features that scale with the business.</p>
+            <p>I've delivered production CRM systems, e-commerce platforms, and custom REST APIs — many of which are private client projects available for live demos on request.</p>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <div class="stat-blur"></div>
+            <span class="stat-icon"><i data-lucide="briefcase"></i></span>
+            <p class="stat-value">3+</p>
+            <p class="stat-label">Years Experience</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-blur"></div>
+            <span class="stat-icon"><i data-lucide="rocket"></i></span>
+            <p class="stat-value">20+</p>
+            <p class="stat-label">Projects Delivered</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-blur"></div>
+            <span class="stat-icon"><i data-lucide="users"></i></span>
+            <p class="stat-value">15+</p>
+            <p class="stat-label">Happy Clients</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-blur"></div>
+            <span class="stat-icon"><i data-lucide="code-2"></i></span>
+            <p class="stat-value">10+</p>
+            <p class="stat-label">Technologies</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SKILLS ============== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">// Skills & Tools</p>
+          <h2 class="section-title">My <span class="text-gradient">technical toolkit</span></h2>
+          <p class="section-desc">Technologies I use every day to build robust, production-ready applications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-head"><h3>Frontend</h3><span class="skill-num">01</span></div>
+            <p class="skill-tag">Interactive UIs</p>
+            <ul class="skill-list">
+              <li><i data-lucide="file-code" ></i> HTML5</li>
+              <li><i data-lucide="code"></i> CSS3</li>
+              <li><i data-lucide="braces"></i> JavaScript</li>
+              <li><i class="fa-brands fa-react"></i> React js</li>
+              <li><i data-lucide="layers"></i> jQuery</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-head"><h3>Backend</h3><span class="skill-num">02</span></div>
+            <p class="skill-tag">Server-side logic</p>
+            <ul class="skill-list">
+              <li><i data-lucide="server"></i> Node.js</li>
+              <li><i data-lucide="server"></i> Express.js</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-head"><h3>Database</h3><span class="skill-num">03</span></div>
+            <p class="skill-tag">Data modeling</p>
+            <ul class="skill-list">
+              <li><i data-lucide="database"></i> MySQL</li>
+              <li><i data-lucide="database"></i> Mongo DB</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-head"><h3>Other</h3><span class="skill-num">04</span></div>
+            <p class="skill-tag">APIs & integrations</p>
+            <ul class="skill-list">
+              <li><i data-lucide="globe"></i> REST APIs</li>
+              <li><i data-lucide="shield-check"></i> Authentication</li>
+              <li><i data-lucide="repeat"></i> CRUD Operations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PROJECTS ============== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">// Selected Work</p>
+          <h2 class="section-title">Featured <span class="text-gradient">projects</span></h2>
+          <p class="section-desc">A glimpse into the production applications I've built and shipped.</p>
+        </div>
+
+        <div class="projects-list">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="./assets/project-crm.jpg" alt="CRM System screenshot" loading="lazy" />
+              <div class="project-image-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="badge badge-sm"><i data-lucide="sparkles"></i> Client Project</div>
+              <h3>CRM System</h3>
+              <p>A full-featured CRM platform to manage leads, sales, and customer data with role-based access and a customizable dashboard.</p>
+              <p class="project-features-label">Key Features</p>
+              <ul class="project-features">
+                <li><span class="dot-tiny"></span> Lead management</li>
+                <li><span class="dot-tiny"></span> Role-based login</li>
+                <li><span class="dot-tiny"></span> Analytics dashboard</li>
+                <li><span class="dot-tiny"></span> Custom forms</li>
+              </ul>
+              <div class="project-tech">
+                <span>Node.js</span><span>Express.js</span><span>MySQL</span><span>jQuery</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary"><i data-lucide="play-circle"></i> Watch Demo</button>
+                <button class="btn btn-outline"><i data-lucide="external-link"></i> Screenshots</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-reverse reveal">
+            <div class="project-image">
+              <img src="./assets/project-ecommerce.jpg" alt="E-commerce Website screenshot" loading="lazy" />
+              <div class="project-image-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="badge badge-sm"><i data-lucide="sparkles"></i> Client Project</div>
+              <h3>E-commerce Website</h3>
+              <p>A dynamic e-commerce platform with full product management, shopping cart, secure checkout, and a powerful admin panel.</p>
+              <p class="project-features-label">Key Features</p>
+              <ul class="project-features">
+                <li><span class="dot-tiny"></span> Product listing</li>
+                <li><span class="dot-tiny"></span> Cart & checkout</li>
+                <li><span class="dot-tiny"></span> Order system</li>
+                <li><span class="dot-tiny"></span> Admin panel</li>
+              </ul>
+              <div class="project-tech">
+                <span>Node.js</span><span>MySQL</span><span>JavaScript</span><span>Express</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary"><i data-lucide="play-circle"></i> Watch Demo</button>
+                <button class="btn btn-outline"><i data-lucide="external-link"></i> Screenshots</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="reveal note-card">
+          <span class="note-icon"><i data-lucide="lock"></i></span>
+          <div>
+            <h3>A note on client work</h3>
+            <p>Some projects are built for clients and are not publicly accessible. I can provide <strong>live demos</strong> or <strong>screen recordings</strong> on request — just reach out via the contact form below.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACT ============== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">// Get In Touch</p>
+          <h2 class="section-title">Let's build something <span class="text-gradient">together</span></h2>
+          <p class="section-desc">Have a project in mind or want a live demo of my client work? Drop me a message.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="reveal contact-info">
+            <a href="mailto:tanu.kumari.2308@gmail.com" class="info-card">
+              <span class="info-icon"><i data-lucide="mail"></i></span>
+              <div><p class="info-label">Email</p><p class="info-value">tanu.kumari.2308@gmail.com</p></div>
+            </a>
+            <a href="tel:+919540893215" class="info-card">
+              <span class="info-icon"><i data-lucide="phone"></i></span>
+              <div><p class="info-label">Phone</p><p class="info-value">+91 9540893215</p></div>
+            </a>
+            <a href="https://www.linkedin.com/in/tanu-kumari-7700a0293" target="_blank" rel="noreferrer" class="info-card">
+              <span class="info-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+              <div><p class="info-label">LinkedIn</p><p class="info-value">linkedin.com/in/tanu-kumari</p></div>
+            </a>
+            <div class="info-card">
+              <span class="info-icon"><i data-lucide="map-pin"></i></span>
+              <div><p class="info-label">Location</p><p class="info-value">India — Remote friendly</p></div>
+            </div>
+          </div>
+
+
+          <!-- <form action="https://formspree.io/f/mvzdweqr" method="POST">
+  <input type="email" name="email" placeholder="Email">
+  <button type="submit">Send</button>
+</form> -->
+          <form id="contactForm" class="reveal contact-form" action="https://formspree.io/f/mvzdweqr" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Phone Number</label>
+                <input id="number" name="number" type="tel" required placeholder="Your Phone Number" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" required placeholder="Project inquiry, demo request, etc." />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me a bit about your project..."></textarea>
+              <input type="hidden" name="_subject" value="New Contact Form Message">
+                <input type="hidden" name="_redirect" value="index.html">
+
+            </div>
+            <button type="submit" class="btn btn-primary contact-submit">
+              <span id="submitText">Send Message</span>
+              <i data-lucide="send"></i>
+            </button>
+            <p id="formNote" class="form-note"></p>
+          </form> 
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-logo"><i data-lucide="code-2"></i></span>
+        <div>
+          <p class="footer-name">Tanu Kumari</p>
+          <p class="footer-role">Full Stack Developer</p>
+        </div>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/tanu-kumari-7700a0293" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="mailto:tanu.kumari.2308@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+
+      <p class="footer-copy">© <span id="year"></span> Tanu Kumari.</p>
+    </div>
+  </footer>
+
+  <!-- ============== WHATSAPP BUTTON ============== -->
+  <a id="whatsappBtn" href="https://wa.me/919540893215?text=Hi%20Tanu!%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect." target="_blank" rel="noreferrer noopener" aria-label="Chat on WhatsApp" class="whatsapp">
+    <span class="whatsapp-tip">Chat on WhatsApp</span>
+    <span class="whatsapp-btn">
+      <span class="whatsapp-ping"></span>
+      <i data-lucide="message-circle"></i>
+    </span>
+  </a>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
