@@ -17,17 +17,6 @@ portfolio-static/
 └── README.md
 ```
 
-## 🌐 Deploy
-
-### GitHub Pages
-1. Create a new repo on GitHub (e.g. `portfolio`).
-2. Upload all the files in this folder to the **root** of the repo.
-3. Go to **Settings → Pages**.
-4. Under **Source**, choose **Deploy from a branch** → `main` → `/ (root)` → **Save**.
-5. Wait ~1 minute. Your site goes live at:
-   `https://<your-username>.github.io/<repo-name>/`
-
-
 ## 🎨 Tech inside
 
 - Plain HTML5, CSS3, vanilla JavaScript
