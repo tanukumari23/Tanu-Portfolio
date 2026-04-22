@@ -17,17 +17,6 @@ portfolio-static/
 └── README.md
 ```
 
-## 🚀 Run locally
-
-Just double-click `index.html` — it works straight from disk.
-
-Or, for a proper local server (recommended):
-```bash
-# Python 3
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
-
 ## 🌐 Deploy
 
 ### GitHub Pages
@@ -38,32 +27,6 @@ python3 -m http.server 8000
 5. Wait ~1 minute. Your site goes live at:
    `https://<your-username>.github.io/<repo-name>/`
 
-### Netlify / Vercel / Any host
-Just drag-and-drop this folder. No config needed.
-
-## ✏️ How to edit
-
-| What you want to change | Where to edit |
-| --- | --- |
-| Name, headline, description | `index.html` (search for "Tanu Kumari") |
-| Email / phone / LinkedIn | `index.html` + the `RECIPIENT_EMAIL` const at the top of `script.js` |
-| WhatsApp number | `index.html` — search for `wa.me/` and replace the digits |
-| Skills | `index.html` — inside the `#skills` section |
-| Projects | `index.html` — inside the `#projects` section |
-| Project images | replace files in `assets/` (keep the same names, or update the `<img src>`) |
-| Colors / theme | `styles.css` — the `:root` block at the top (HSL values) |
-| Animations / interactivity | `script.js` |
-
-## 📧 Contact form
-
-When a visitor submits the form, their **default email app opens** with:
-- **To:** `tanu.kumari.2308@gmail.com`
-- **Subject:** what they typed
-- **Body:** their name, email, and message
-
-They just hit **Send** and the email arrives in your inbox. No backend, no API keys.
-
-> Want true backend-powered form submissions later? Easy options: [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com), or [Netlify Forms](https://docs.netlify.com/forms/setup/).
 
 ## 🎨 Tech inside
 
@@ -72,4 +35,3 @@ They just hit **Send** and the email arrives in your inbox. No backend, no API k
 - Google Fonts: Inter, Space Grotesk, JetBrains Mono
 - Zero dependencies to install
 
-Enjoy! 🎉
